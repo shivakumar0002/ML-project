@@ -1,8 +1,6 @@
-import sys
-sys.path.insert(0, '/absolute/path/to/project/root')
 import os
 import sys
-from src.exception import CustomException 
+from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
 
