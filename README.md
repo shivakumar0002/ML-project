@@ -19,3 +19,51 @@ The Student Exam Performance Predictor is a machine learning application designe
 
 ### Setup
 1. Clone the repository:
+2. git clone https://github.com/shivakumar0002/ML-project.git
+cd ML-project
+2. Create a virtual environment:
+python -m venv venv
+3. Activate the virtual environment:
+- On Windows:
+  ```
+  venv\Scripts\activate
+  ```
+- On Unix or MacOS:
+  ```
+  source venv/bin/activate
+  ```
+4. Install the required dependencies:
+
+
+ pip install -r requirements.txt 
+
+ 
+## Usage
+To run the web application locally:
+
+
+## Usage
+To run the web application locally:
+
+
+Navigate to `http://127.0.0.1:5000/` in your web browser to access the application.
+
+## How It Works
+The application uses a machine-learning model trained on a dataset including various features such as gender, race, parental level of education, and lunch type. Users input their details and academic scores, and the model predicts their performance in exams.
+
+## Contributing
+We welcome contributions to this project. Please fork the repository, make your changes, and submit a pull request for review.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+- [Dataset Source] ( u can see in artifacts )
+- Mentors: KRISH NAIK
+
+## Contact
+For any queries or discussions regarding the project, please reach out to me at godipally.shivakumar01@yahoo.com
+
+Thank you for your interest in our Student Exam Performance Predictor!
+
+
